@@ -26,11 +26,11 @@
 </template>
 
 <script>
-import ArmyComponent from "@/components/armyComponent.vue"
-import Collectibles from "@/components/Collectibles.vue"
-import Cards from '@/components/cards.vue'
-import Navbar from "../components/Navbar.vue"
-import AllianceComponent from "../components/AllianceComponent.vue"
+import ArmyComponent from "@/components/armyComponent"
+import Collectibles from "@/components/Collectibles"
+import Cards from '@/components/cards'
+import Navbar from "../components/Navbar"
+import AllianceComponent from "../components/AllianceComponent"
 import ShowGeolocation from "../components/showGeolocation.vue"
 export default {
   components: {
@@ -67,6 +67,7 @@ export default {
   width: 7px;
 }
 .home-navbar {
+  border-left: 1px solid #A9A9A9;
 }
 .home-main {
   background-color: silver;
